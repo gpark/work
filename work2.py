@@ -26,3 +26,10 @@ def DecrementCharacter(character, amount):
     if (upper):
         return chr(value).upper()
     return chr(value)
+
+message = 'Otjfvknou kskgnl, K mbxg iurtsvcnb ksgq hoz atv. Vje xcxtyqrl vt ujg smewfv vrmcxvtg rwqr ju vhm ytsf elwepuqyez. -Atvt hrqgse, Cnikg'
+print(decrypt(message)) # Greetings friend, I have important info for you. The password to the secret treasure room is the word clocktower. -Your friend, Alice
+#the first message is printed wrong and I don't know why
+message2 = 'Bjj rwkcs dwpyp fwz ovors wxjs vje tcez fqg'
+print(decrypt(message2)) # The quick brown fox jumps over the lazy dog
+#the second one is printed right
